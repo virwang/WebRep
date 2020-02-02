@@ -1,0 +1,263 @@
+/* my home page web css */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* style the header */
+.header {
+  position: absolute;
+  top: 0px;
+  background-color: SandyBrown;
+  padding: 5px;
+  text-align: center;
+  width: 500px;
+  height: 200px;
+  font-size: 20px;
+}
+
+/* style the top navagation bar */
+.topnav {
+  overflow: hidden;
+  background-color: SandyBrown;
+  position: absolute;
+  left: 500px;
+  top: 0;
+  height: 200px;
+  font-size: 20px;
+  width: 1300px;
+}
+
+/* style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 30px 50px;
+  text-decoration: none;
+  height: 200px;
+}
+
+/* change color on hover */
+.topnav a:hover {
+  background-color: #8B0000;
+  color: white;
+  padding: 30px 100px;
+}
+
+/* creat three unequal colums that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* left and right column */
+.column.side.left {
+  position: absolute;
+  background-color: #D3D3D3;
+  width: 450px;
+  height: 1000px;
+  top: 200px;
+  left: 0px;
+}
+
+.column.side.right {
+  position: absolute;
+  background-color: pink;
+  width: 450px;
+  height: 1000px;
+  top: 200px;
+  left: 1350px;
+}
+
+/* middle cloumn */
+.column.middle {
+  position: absolute;
+  background-color: #F5DEB3;
+  width: 900px;
+  height: 1000px;
+  top: 200px;
+  left: 450px;
+}
+
+#C_TL {
+  position: absolute;
+  text-align: center;
+  top: 516px;
+  left: 716px;
+}
+
+#C_TR {
+  position: absolute;
+  top: 516px;
+  left: 900px;
+}
+
+#C_BR {
+  position: absolute;
+  top: 700px;
+  left: 900px;
+}
+
+#C_BL {
+  position: absolute;
+  top: 700px;
+  left: 716px;
+}
+/* append square */
+#TL_S {
+  position: absolute;
+  top: 505px;
+  left: 615px;
+}
+
+#TR_S {
+  position: absolute;
+  top: 510px;
+  left: 985px;
+}
+
+#BL_S {
+  position: absolute;
+  top: 800px;
+  left: 610px;
+}
+
+#BR_S {
+  position: absolute;
+  top: 800px;
+  left: 965px;
+}
+/* append square list */
+#TL_list {
+  position: absolute;
+  top:525px;
+  left:650px;
+}
+
+#TR_list {
+  position: absolute;
+  top: 530px;
+  left: 1065px;
+}
+
+#BL_list {
+  position: absolute;
+  top: 850px;
+  left: 650px;
+}
+
+#BR_list {
+  position: absolute;
+  top: 840px;
+  left: 1070px;
+}
+
+/* word on the picture */
+#txt_CTL {
+  position: absolute;
+  top: 600px;
+  left: 820px;
+}
+
+#txt_CTR {
+  position: absolute;
+  top: 570px;
+  left: 960px;
+}
+
+#txt_CBR {
+  position: absolute;
+  top: 750px;
+  left: 800px;
+}
+
+#txt_CBL {
+  position: absolute;
+  top: 750px;
+  left: 960px;
+}
+/* clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .column.side.left, .column.middle, .column.side.right {
+    width: 100%;
+  }
+}
+
+/* style the footer */
+.footer {
+  position: absolute;
+  background-color: gray;
+  padding: 10px;
+  height: 140px;
+  top:1200px;
+  width: 1800px;
+}
+
+#ft0 {
+  position: absolute;
+  top: 1200px;
+  left: 50px;
+}
+
+ #ft1 {
+  position: absolute;
+  top: 1200px;
+  left: 450px;
+}
+
+ #ft2 {
+  position: absolute;
+  top: 1200px;
+  left: 700px;
+}
+
+#ft3 {
+  position: absolute;
+  top: 1200px;
+  left: 950px;
+}
+
+#ft4 {
+  font-size: 10px;
+  position: absolute;
+  top: 1260px;
+  left: 500px;
+}
+
+
+a {
+  color: white;
+}
+
+/* div.gallery {
+  margin: 5px'
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+/* div.gallery:hover {
+  border: 1px solid #777;
+} */
+
+/* div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+} */
