@@ -63,24 +63,28 @@ body {
   clear: both;
 }
 
-/* responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/* responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
-  .leftcolumn, .rightcolumn{
+  .left, .right, .footer{
     width: 100%;
   }
 }
 /* left column */
-.leftcolumn {
+.   {
   background-color: skyblue;
   position: absolute;
-  width: 900px;
-  height: 1000px;
+  top:200px;
+  left:0px;
+  width:900px;
+  height:1000px;
 }
 
 /* right cloumn */
-.rightcolumn {
+.right {
   background-color: #F5DEB3;
   position: absolute;
+  top:200px;
+  left: 900px;
   width: 900px;
   height: 1000px;
 }
@@ -111,9 +115,10 @@ body {
 /* style the footer */
 .footer {
   background-color: gray;
+  position:absolute;
   padding: 10px;
   height: 140px;
-  top: 0px;
+  top: 1200px;
   /* width: 1800px; */
 }
 
