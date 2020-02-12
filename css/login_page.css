@@ -1,0 +1,187 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+/* style the header */
+.header {
+  background-color: SandyBrown;
+  padding: 10px 10px;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  font-size: 2em;
+}
+
+/* style the top navagation bar */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: absolute;
+  left: 0px;
+  top: 200px;
+  font-size: 1.5em;
+  padding: 10px 10px;
+  width:100%;
+}
+
+/* style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 20px;
+  text-decoration: none;
+  height: 200px;
+}
+
+/* change color on hover */
+.topnav a:hover {
+  background-color:gray;
+  color: orange;
+  padding: 0;
+  font-size: 2em;
+}
+
+.nav {
+  list-style-type: none;
+  background-color: orange;
+  position: absolute;
+  /* margin: 200px 50% 80% 0% ; */
+  padding: 0;
+  width: 50%;
+  top: 400px;
+  right: 50%;
+  height: 1000px;
+  line-height: 65px;
+  overflow: auto;
+  text-align: center;
+  font-size: 1em;
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+li .a.active {
+  background-color: #F08080;
+  color: white;
+}
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* .left {
+  background-color: skyblue;
+  position: absolute;
+  top:400px;
+  left:0px;
+  width:50%;
+  height:1000px;
+} */
+
+/*right cloumn */
+.right {
+  /* background-color: #F5DEB3;
+  position: absolute;
+  top:400px;
+  left: 900px;
+  width:50%;
+  height: 1000px;
+  width: 50%;*/
+/*the upper one is the before tupe*/
+
+  background-color: skyblue;
+  position: absolute;
+  top:420px;
+  left: 50%;
+  height:1000px;
+  width: 50%;
+  text-align: center;
+  font-size: 1em;
+}
+
+/* .container {
+  border-radius: 20px  50px;
+  background-color: lightgreen;
+  padding: 10px;
+} */
+/* #head {
+  position: absolute;
+  top: 75% 75%;
+} */
+
+.form_group {
+  float: left;
+  width: 2em 10em;
+  margin-top: 10px;
+}
+
+/* style the footer */
+.footer {
+  background-color: gray;
+  position:absolute;
+  padding: 50px 100%;
+  width: 100%;
+  right: 0px;
+  height: 100%;
+  top: 1400px;
+  /* width: 1800px; */
+}
+
+#ft0 {
+  position: absolute;
+  top: 0%;
+  left: 10px;
+  font-size: 0.5em;
+}
+
+ #ft1 {
+  position: absolute;
+  top: 0%;
+  right: 70em;
+  font-size: 0.5em;
+}
+
+ #ft2 {
+  position: absolute;
+  top: 0%;
+  left: 100em;
+  font-size: 0.5em;
+}
+
+#ft3 {
+  position: absolute;
+  top: 0%;
+  left: 40%;
+  font-size: 0.5em;
+}
+
+#ft4 {
+  font-size: 0.5em;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+}
+
+a {
+  color: black;
+}
+/* clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width:5000px) {
+  .right, .footer{
+    width: 100%;
+  }
+}
