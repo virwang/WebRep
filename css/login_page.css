@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  font-family: Arial, Helvetica, initial-scale=1;
 }
 /* style the header */
 .header {
@@ -101,7 +102,7 @@ li a:hover {
   top:420px;
   left: 50%;
   height:1000px;
-  width: 50%;
+  width: 25%;
   text-align: center;
   font-size: 1em;
 }
