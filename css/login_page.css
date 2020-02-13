@@ -3,8 +3,8 @@
 }
 
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, initial-scale=1;
+  margin: 0px;
+
 }
 /* style the header */
 .header {
@@ -13,9 +13,15 @@ body {
   text-align: center;
   width: 100%;
   height: 200px;
-  font-size: 2em;
+  font-size: 1.5em;
 }
-
+.header a:hover{
+  padding: 10px 10px;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  color: purple;
+}
 /* style the top navagation bar */
 .topnav {
   overflow: hidden;
@@ -34,17 +40,17 @@ body {
   display: block;
   color: white;
   text-align: center;
-  padding: 5px 20px;
+  padding: 10px 20px;
   text-decoration: none;
-  height: 200px;
+  height: 100px;
 }
 
 /* change color on hover */
 .topnav a:hover {
-  background-color:gray;
+  background-color: gray;
   color: orange;
-  padding: 0;
-  font-size: 2em;
+  padding: 10px;
+  font-size: 10px 20px;
 }
 
 .nav {
@@ -53,10 +59,10 @@ body {
   position: absolute;
   /* margin: 200px 50% 80% 0% ; */
   padding: 0;
-  width: 50%;
-  top: 400px;
-  right: 50%;
-  height: 1000px;
+  width: 20%;
+  top: 300px;
+  left: 0%;
+  height: 600px;
   line-height: 65px;
   overflow: auto;
   text-align: center;
@@ -69,7 +75,7 @@ li a {
   text-decoration: none;
 }
 li .a.active {
-  background-color: #F08080;
+  background-color: gray;
   color: white;
 }
 li a:hover {
@@ -87,40 +93,62 @@ li a:hover {
 } */
 
 /*right cloumn */
-.right {
-  /* background-color: #F5DEB3;
-  position: absolute;
-  top:400px;
-  left: 900px;
-  width:50%;
-  height: 1000px;
-  width: 50%;*/
-/*the upper one is the before tupe*/
-
+/* .right {
   background-color: skyblue;
   position: absolute;
-  top:420px;
-  left: 50%;
+  top:320px;
+  left:20%;
+  width: 80%;
   height:1000px;
-  width: 25%;
   text-align: center;
   font-size: 1em;
+} */
+
+.container {
+  border-radius: 10px 70px 10PX 70PX;
+  background-color: lightgreen;
+  position: absolute;
+  left: 30%;
+  top: 320px;
+  height:600px;
+  padding: 100px 200px;
 }
 
-/* .container {
-  border-radius: 20px  50px;
-  background-color: lightgreen;
-  padding: 10px;
-} */
-/* #head {
-  position: absolute;
-  top: 75% 75%;
+/* input[type=text], input[type=password] {
+  width: 50%
+  padding:30px;
+  margin: 10px 0 30px 0;
+  display: none;
+  border: none;
+  background: pink;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
 } */
 
+/* overwrite default styles of hr, however nothing changed */
+/* hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+ } */
+
 .form_group {
-  float: left;
-  width: 2em 10em;
+  float: center;
+  /* width: 5em 10em; */
   margin-top: 10px;
+}
+
+/* submit button sttyle */
+.submit{
+  background-color: darkred;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100% ;
 }
 
 /* style the footer */
@@ -130,8 +158,8 @@ li a:hover {
   padding: 50px 100%;
   width: 100%;
   right: 0px;
-  height: 100%;
-  top: 1400px;
+  height: 100px;
+  top: 900px;
   /* width: 1800px; */
 }
 
