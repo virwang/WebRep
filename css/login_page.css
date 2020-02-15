@@ -1,86 +1,89 @@
 *{
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0px;
+    margin: 0px;
 
 }
 /* style the header */
 .header {
-  background-color: SandyBrown;
-  padding: 10px 10px;
-  text-align: center;
-  width: 100%;
-  height: 200px;
-  font-size: 1.5em;
+    background-color: SandyBrown;
+    padding: 10px 10px;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    font-size: 1.5em;
 }
 .header a:hover{
-  padding: 10px 10px;
-  text-align: center;
-  width: 100%;
-  height: 200px;
-  color: purple;
+    padding: 10px 10px;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    color: purple;
 }
 /* style the top navagation bar */
 .topnav {
-  overflow: hidden;
-  background-color: black;
-  position: absolute;
-  left: 0px;
-  top: 200px;
-  font-size: 1.5em;
-  padding: 10px 10px;
-  width:100%;
+    overflow: hidden;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    font-size: 1.5em;
+    padding: 10px 10px;
+    width:100%;
 }
 
 /* style the topnav links */
 .topnav a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 10px 20px;
-  text-decoration: none;
-  height: 100px;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    height: 100px;
 }
 
 /* change color on hover */
 .topnav a:hover {
-  background-color: gray;
-  color: orange;
-  padding: 10px;
-  font-size: 10px 20px;
+    background-color: gray;
+    color: orange;
+    padding: 10px;
+    font-size: 10px 20px;
 }
 
-.nav {
-  list-style-type: none;
-  background-color: orange;
-  position: absolute;
-  /* margin: 200px 50% 80% 0% ; */
-  padding: 0;
-  width: 20%;
-  top: 300px;
-  left: 0%;
-  height: 600px;
-  line-height: 65px;
-  overflow: auto;
-  text-align: center;
-  font-size: 1em;
+.subnav {
+    list-style-type: none;
+    background-color: orange;
+    position: absolute;
+    /* margin: 200px 50% 80% 0% ; */
+    padding: 0;
+    width: 20%;
+    top: 330px;
+    left: 0%;
+    height: 600px;
+    line-height: 65px;
+    overflow: auto;
+    text-align: center;
+    font-size: 1em;
 }
+
 li a {
-  display: block;
-  color: #000;
-  padding: 10px 20px;
-  text-decoration: none;
+    display: block;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
 }
+
 li .a.active {
-  background-color: gray;
-  color: white;
+    background-color: gray;
+    color: white;
 }
+
 li a:hover {
-  background-color: #555;
-  color: white;
+    background-color: #555;
+    color: white;
 }
 
 /* .left {
@@ -105,13 +108,13 @@ li a:hover {
 } */
 
 .container {
-  border-radius: 10px 70px 10PX 70PX;
-  background-color: lightgreen;
-  position: absolute;
-  left: 30%;
-  top: 320px;
-  height:600px;
-  padding: 100px 200px;
+    border-radius: 10px 70px 10PX 70PX;
+    background-color: lightgreen;
+    position: absolute;
+    left: 30%;
+    top: 330px;
+    height:600px;
+    padding: 100px 200px;
 }
 
 /* input[type=text], input[type=password] {
@@ -135,71 +138,71 @@ input[type=text]:focus, input[type=password]:focus {
  } */
 
 .form_group {
-  float: center;
-  /* width: 5em 10em; */
-  margin-top: 10px;
+    float: center;
+    /* width: 5em 10em; */
+    margin-top: 10px;
 }
 
 /* submit button sttyle */
 .submit{
-  background-color: darkred;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100% ;
+    background-color: darkred;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100% ;
 }
 
 /* style the footer */
 .footer {
-  background-color: gray;
-  position:absolute;
-  padding: 50px 100%;
-  width: 100%;
-  right: 0px;
-  height: 100px;
-  top: 900px;
+    background-color: gray;
+    position:absolute;
+    padding: 50px 100%;
+    width: 100%;
+    right: 0px;
+    height: 100px;
+    top: 900px;
   /* width: 1800px; */
 }
 
 #ft0 {
-  position: absolute;
-  top: 0%;
-  left: 10px;
-  font-size: 0.5em;
+    position: absolute;
+    top: 0%;
+    left: 10px;
+    font-size: 0.5em;
 }
 
  #ft1 {
-  position: absolute;
-  top: 0%;
-  right: 70em;
-  font-size: 0.5em;
+    position: absolute;
+    top: 0%;
+    right: 70em;
+    font-size: 0.5em;
 }
 
  #ft2 {
-  position: absolute;
-  top: 0%;
-  left: 100em;
-  font-size: 0.5em;
+    position: absolute;
+    top: 0%;
+    left: 100em;
+    font-size: 0.5em;
 }
 
 #ft3 {
-  position: absolute;
-  top: 0%;
-  left: 40%;
-  font-size: 0.5em;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    font-size: 0.5em;
 }
 
 #ft4 {
-  font-size: 0.5em;
-  position: absolute;
-  top: 0%;
-  left: 50%;
+    font-size: 0.5em;
+    position: absolute;
+    top: 0%;
+    left: 50%;
 }
 
 a {
-  color: black;
+    color: black;
 }
 /* clear floats after the columns */
 .row:after {
