@@ -12,9 +12,9 @@
 
 <body>
   <!-- <marquee><h1> this is login page</h1></marquee> -->
-  <form name="vinform">
+  <!-- <form name="vinform">
     Enter id:<input type="text" name="email" onkeyup="sendInfo()">
-  </form>
+  </form> -->
 
   <span id="amit"> </span>
 
@@ -54,9 +54,7 @@
 <div class ="container">
   <h2 id= "head">登入會員/修改會員資料</h2>
       <form  action="./jsp/login_page.jsp" method="get">
-
           <div class="form_group">
-
                 <label for="account" id="text-account">會員帳號</label> <br>
                 <lable><input type="text" class="form_group" id="account" name="account" placeholder="15個英數字組合"><br></lable>
                 <label for="email" class="form_group"> email</label> <br>
@@ -69,20 +67,16 @@
                 <input type="text" class="form_group" id="username" name="username" placeholder="請填入姓名"> <br><br>
           <!-- this is a confirm button -->
                 <button type="submit" class="submit" value="確認送出"> 確認送出</button>
-
           </div>
-
       </form>
-
-      <c:forEach var = "row" items = "${result.rows}">
+      <span id="amit"> </span>
+      <!-- <c:forEach var = "row" items = "${result.rows}">
         <lable><c:out value = "${row.account}"/></lable>
         <lable><c:out value = "${row.password}"/></lable>
         <lable><c:out value = "${orw.confirm}"/></lable>
         <lable><c:out value = "${row.username}"/></lable>
-      </c:forEach>
-
+      </c:forEach> -->
 </div>
-<!-- test commend -->
 
 <!-- foot -->
 <div class="footer">
