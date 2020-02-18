@@ -1,8 +1,10 @@
-<%-- <%@ page import="java.sql.*" %> --%>
-<%-- <html>
+<%@ page import= "java.io.*, java.util.* ,java.sql.*" %>
+<%@ page import= "javax.serverlet.http.*,javax.serverlet.*" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix = "c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix = "sql"%>
 
-<body>     --%>
-  <%
+<%
+  import java.sql.*;
   String s=request.getParameter("val");
       if(s==null || s.trim().equals("") {
         out.print("Please enter id");
@@ -22,6 +24,5 @@
       } catch(Exception e) {e.printStackTrace();}
     }
 
-  string password=request.getParameter("password");
-
-  %>
+  // string password=request.getParameter("password");
+%>
