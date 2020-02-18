@@ -1,4 +1,7 @@
 // this is login page js
+// import java.sql.*;  cannot use this outside
+// import java.math.*;
+
 var request;
 function sendInfo()
 {
