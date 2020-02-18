@@ -137,14 +137,14 @@ input[type=text]:focus, input[type=password]:focus {
   margin-bottom: 25px;
  } */
 
-.form_group {
+.login_success{
     float: center;
     /* width: 5em 10em; */
     margin-top: 10px;
 }
 
 /* submit button sttyle */
-.submit{
+.return{
     background-color: darkred;
     color: white;
     padding: 16px 20px;
